@@ -4,6 +4,7 @@ Versión de CakePHP con el template de AdminLTE 2
 
 El ejemplo utiliza una base de datos llamada **cakephp** y una tabla llamada **usuarios** con la siguiente estructura:
 
+```sql
 CREATE TABLE `usuarios` (
   `id` int(10) UNSIGNED NOT NULL,
   `nombre` varchar(60) DEFAULT NULL,
@@ -27,4 +28,4 @@ ALTER TABLE `usuarios`
 
 ALTER TABLE `usuarios`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
+```
