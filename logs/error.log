@@ -1,0 +1,795 @@
+2017-06-06 23:41:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/cakeLTE/tmp/cache/persistent/myapp_cake_core_translations_debug_kit_en__u_s): failed to open stream: Permission denied in [/var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 396]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 396
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+DebugKit\Cache\Engine\DebugEngine::read() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 149
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 148
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__d - CORE/src/I18n/functions.php, line 88
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 53
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 414
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 391
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 502
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 114
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-06-06 23:41:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/cakeLTE/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 396]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 396
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+DebugKit\Cache\Engine\DebugEngine::read() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 149
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 148
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 272
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 176
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 150
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__d - CORE/src/I18n/functions.php, line 88
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 53
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 414
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 391
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 502
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 114
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-06-06 23:41:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/cakeLTE/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 396]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 396
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+DebugKit\Cache\Engine\DebugEngine::write() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 123
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 151
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 272
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 176
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 150
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__d - CORE/src/I18n/functions.php, line 88
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 53
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 414
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 391
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 502
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 114
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-06-06 23:41:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/cakeLTE/tmp/cache/persistent/myapp_cake_core_translations_debug_kit_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 396]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 396
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+DebugKit\Cache\Engine\DebugEngine::write() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 123
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 151
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__d - CORE/src/I18n/functions.php, line 88
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 53
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 414
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 391
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 502
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 114
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-06-06 23:41:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/cakeLTE/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 396]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 396
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+DebugKit\Cache\Engine\DebugEngine::read() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 149
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 148
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Controller\Component\AuthComponent::_setDefaults() - CORE/src/Controller/Component/AuthComponent.php, line 496
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 295
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 268
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 414
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 391
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 506
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 114
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-06-06 23:41:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/cakeLTE/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 396]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 396
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+DebugKit\Cache\Engine\DebugEngine::write() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 123
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 151
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Controller\Component\AuthComponent::_setDefaults() - CORE/src/Controller/Component/AuthComponent.php, line 496
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 295
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 268
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 414
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 391
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 506
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 114
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-06-06 23:41:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/cakeLTE/tmp/cache/models/myapp_cake_model_debug_kit_requests) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 396]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 396
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+DebugKit\Cache\Engine\DebugEngine::read() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 149
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 313
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 531
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 652
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 169
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2413
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 179
+DebugKit\Routing\Filter\DebugBarFilter::afterDispatch() - ROOT/vendor/cakephp/debug_kit/src/Routing/Filter/DebugBarFilter.php, line 139
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 414
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 391
+Cake\Http\ActionDispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 98
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-06-06 23:41:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/cakeLTE/tmp/cache/models/myapp_cake_model_debug_kit_requests) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 396]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 396
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+DebugKit\Cache\Engine\DebugEngine::write() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 123
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 232
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 531
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 652
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 169
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2413
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 179
+DebugKit\Routing\Filter\DebugBarFilter::afterDispatch() - ROOT/vendor/cakephp/debug_kit/src/Routing/Filter/DebugBarFilter.php, line 139
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 414
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 391
+Cake\Http\ActionDispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 98
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-06-06 23:41:21 Warning: Warning (512): _cake_model_ cache was unable to write 'debug_kit_requests' to DebugKit\Cache\Engine\DebugEngine cache in [/var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Cache/Cache.php, line 241]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 241
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 531
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 652
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 169
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2413
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 179
+DebugKit\Routing\Filter\DebugBarFilter::afterDispatch() - ROOT/vendor/cakephp/debug_kit/src/Routing/Filter/DebugBarFilter.php, line 139
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 414
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 391
+Cake\Http\ActionDispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 98
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-06-06 23:41:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/cakeLTE/tmp/cache/models/myapp_cake_model_debug_kit_panels) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 396]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 396
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+DebugKit\Cache\Engine\DebugEngine::read() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 149
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 313
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 531
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 652
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 169
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2413
+Cake\ORM\Association::__call() - CORE/src/ORM/Association.php, line 1361
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 196
+DebugKit\Routing\Filter\DebugBarFilter::afterDispatch() - ROOT/vendor/cakephp/debug_kit/src/Routing/Filter/DebugBarFilter.php, line 139
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 414
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 391
+Cake\Http\ActionDispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 98
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-06-06 23:41:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/cakeLTE/tmp/cache/models/myapp_cake_model_debug_kit_panels) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 396]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 396
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+DebugKit\Cache\Engine\DebugEngine::write() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 123
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 232
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 531
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 652
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 169
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2413
+Cake\ORM\Association::__call() - CORE/src/ORM/Association.php, line 1361
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 196
+DebugKit\Routing\Filter\DebugBarFilter::afterDispatch() - ROOT/vendor/cakephp/debug_kit/src/Routing/Filter/DebugBarFilter.php, line 139
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 414
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 391
+Cake\Http\ActionDispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 98
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-06-06 23:41:21 Warning: Warning (512): _cake_model_ cache was unable to write 'debug_kit_panels' to DebugKit\Cache\Engine\DebugEngine cache in [/var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Cache/Cache.php, line 241]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 241
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 531
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 652
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 169
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2413
+Cake\ORM\Association::__call() - CORE/src/ORM/Association.php, line 1361
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 196
+DebugKit\Routing\Filter\DebugBarFilter::afterDispatch() - ROOT/vendor/cakephp/debug_kit/src/Routing/Filter/DebugBarFilter.php, line 139
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 414
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 391
+Cake\Http\ActionDispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 98
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-06-06 23:41:21 Error: [PDOException] SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+Request URL: /
+Stack Trace:
+#0 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(174): PDOStatement->execute(NULL)
+#1 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(174): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php(76): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php(41): Cake\Database\Statement\BufferedStatement->execute(NULL)
+#4 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Database/Connection.php(313): Cake\Database\Statement\SqliteStatement->execute()
+#5 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Database/Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#6 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/ORM/Table.php(1916): Cake\Database\Query->execute()
+#7 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/ORM/Table.php(1810): Cake\ORM\Table->_insert(Object(DebugKit\Model\Entity\Request), Array)
+#8 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/ORM/Table.php(1723): Cake\ORM\Table->_processSave(Object(DebugKit\Model\Entity\Request), Object(ArrayObject))
+#9 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/ORM/Table.php(1446): Cake\ORM\Table->Cake\ORM\{closure}()
+#10 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Database/Connection.php(680): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#11 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/ORM/Table.php(1447): Cake\Database\Connection->transactional(Object(Closure))
+#12 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/ORM/Table.php(1724): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#13 /var/www/html/cakeLTE/vendor/cakephp/debug_kit/src/ToolbarService.php(200): Cake\ORM\Table->save(Object(DebugKit\Model\Entity\Request))
+#14 /var/www/html/cakeLTE/vendor/cakephp/debug_kit/src/Routing/Filter/DebugBarFilter.php(139): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Event/EventManager.php(414): DebugKit\Routing\Filter\DebugBarFilter->afterDispatch(Object(Cake\Event\Event), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#17 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#18 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(98): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.afte...', Array)
+#19 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#27 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 /var/www/html/cakeLTE/webroot/index.php(37): Cake\Http\Server->run()
+#30 {main}
+
+
+2017-06-06 23:41:21 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Error/Debugger.php line=822 in [/var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 106
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-06-06 23:41:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Error/Debugger.php:822) in [/var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 106
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-06-06 23:41:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Error/Debugger.php:822) in [/var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 178]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 178
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 106
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-06-06 23:43:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Sacerdotes could not be found.
+Exception Attributes: array (
+  'class' => 'Sacerdotes',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /sacerdotes
+Stack Trace:
+#0 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /var/www/html/cakeLTE/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-06-29 22:50:17 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages/publica.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/publica.ctp',
+)
+Request URL: /pages/publica
+Referer URL: http://localhost/cakeLTE/
+Stack Trace:
+#0 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->_getViewFileName('Pages/publica')
+#1 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Controller/Controller.php(623): Cake\View\View->render('publica', NULL)
+#2 /var/www/html/cakeLTE/src/Controller/PagesController.php(61): Cake\Controller\Controller->render('publica')
+#3 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\PagesController->display('publica')
+#4 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#6 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/cakeLTE/webroot/index.php(37): Cake\Http\Server->run()
+#17 {main}
+
+
+2017-06-29 22:50:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/plugins/iCheck/square/blue.js
+Referer URL: http://localhost/cakeLTE/usuarios/register
+Stack Trace:
+#0 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /var/www/html/cakeLTE/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-06-29 22:51:16 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages/publica.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/publica.ctp',
+)
+Request URL: /pages/publica
+Referer URL: http://localhost/cakeLTE/
+Stack Trace:
+#0 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->_getViewFileName('Pages/publica')
+#1 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Controller/Controller.php(623): Cake\View\View->render('publica', NULL)
+#2 /var/www/html/cakeLTE/src/Controller/PagesController.php(61): Cake\Controller\Controller->render('publica')
+#3 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\PagesController->display('publica')
+#4 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#6 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/cakeLTE/webroot/index.php(37): Cake\Http\Server->run()
+#17 {main}
+
+
+2017-06-29 22:51:21 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages/privada.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/privada.ctp',
+)
+Request URL: /pages/privada
+Referer URL: http://localhost/cakeLTE/
+Stack Trace:
+#0 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->_getViewFileName('Pages/privada')
+#1 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Controller/Controller.php(623): Cake\View\View->render('privada', NULL)
+#2 /var/www/html/cakeLTE/src/Controller/PagesController.php(61): Cake\Controller\Controller->render('privada')
+#3 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\PagesController->display('privada')
+#4 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#6 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/cakeLTE/webroot/index.php(37): Cake\Http\Server->run()
+#17 {main}
+
+
+2017-06-29 22:54:29 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages/publica.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/publica.ctp',
+)
+Request URL: /pages/publica
+Referer URL: http://localhost/cakeLTE/usuarios/view/1
+Stack Trace:
+#0 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->_getViewFileName('Pages/publica')
+#1 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Controller/Controller.php(623): Cake\View\View->render('publica', NULL)
+#2 /var/www/html/cakeLTE/src/Controller/PagesController.php(61): Cake\Controller\Controller->render('publica')
+#3 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\PagesController->display('publica')
+#4 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#6 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/cakeLTE/webroot/index.php(37): Cake\Http\Server->run()
+#17 {main}
+
+
+2017-06-29 22:55:48 Error: [Cake\View\Exception\MissingElementException] Element file "Element/aside-control-sidebar.ctp" is missing.
+Exception Attributes: array (
+  0 => 'Element/aside-control-sidebar.ctp',
+)
+Request URL: /usuarios/view/1
+Referer URL: http://localhost/cakeLTE/
+Stack Trace:
+#0 /var/www/html/cakeLTE/src/Template/Layout/default.ctp(60): Cake\View\View->element('aside-control-s...')
+#1 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/View/View.php(1011): include('/var/www/html/c...')
+#2 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/View/View.php(972): Cake\View\View->_evaluate('/var/www/html/c...', Array)
+#3 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/View/View.php(643): Cake\View\View->_render('/var/www/html/c...')
+#4 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/View/View.php(601): Cake\View\View->renderLayout('', 'default')
+#5 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Controller/Controller.php(623): Cake\View\View->render(NULL, NULL)
+#6 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#7 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsuariosController))
+#8 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /var/www/html/cakeLTE/webroot/index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-06-29 23:12:59 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages/ui/ions.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/ui/ions.ctp',
+)
+Request URL: /pages/ui/ions
+Stack Trace:
+#0 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->_getViewFileName('Pages/ui/ions')
+#1 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Controller/Controller.php(623): Cake\View\View->render('ui/ions', NULL)
+#2 /var/www/html/cakeLTE/src/Controller/PagesController.php(61): Cake\Controller\Controller->render('ui/ions')
+#3 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\PagesController->display('ui', 'ions')
+#4 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#6 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/cakeLTE/webroot/index.php(37): Cake\Http\Server->run()
+#17 {main}
+
+
+2017-06-29 23:13:03 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages/ui/icons.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/ui/icons.ctp',
+)
+Request URL: /pages/ui/icons
+Stack Trace:
+#0 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->_getViewFileName('Pages/ui/icons')
+#1 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Controller/Controller.php(623): Cake\View\View->render('ui/icons', NULL)
+#2 /var/www/html/cakeLTE/src/Controller/PagesController.php(61): Cake\Controller\Controller->render('ui/icons')
+#3 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\PagesController->display('ui', 'icons')
+#4 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#6 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/cakeLTE/webroot/index.php(37): Cake\Http\Server->run()
+#17 {main}
+
+
+2017-06-29 23:48:13 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::perfil() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'perfil',
+  'prefix' => '',
+  'plugin' => false,
+)
+Request URL: /usuarios/perfil/1
+Referer URL: http://localhost/cakeLTE/usuarios/view/1
+Stack Trace:
+#0 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsuariosController))
+#2 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /var/www/html/cakeLTE/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-06-29 23:53:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/plugins/iCheck/square/blue.js
+Referer URL: http://localhost/cakeLTE/usuarios/register
+Stack Trace:
+#0 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /var/www/html/cakeLTE/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-06-30 00:37:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/bootstrap.css
+Stack Trace:
+#0 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/cakeLTE/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /var/www/html/cakeLTE/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
