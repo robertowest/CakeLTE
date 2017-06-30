@@ -29,3 +29,7 @@ ALTER TABLE `usuarios`
 ALTER TABLE `usuarios`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 ```
+
+Usuario/Clave
+rwest/rwest
+dmonteros/dmonteros
